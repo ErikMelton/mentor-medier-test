@@ -14,13 +14,13 @@ PORT=<port>
 
 3. Run the application in dev mode:
 ```
-npm dev
+npm run dev
 ```
 
 ## Testing
 1. To run the tests, use the following command:
 ```
-npm test
+npm run test
 ```
 
 ## TODOs and Improvements
