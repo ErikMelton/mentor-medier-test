@@ -1,0 +1,41 @@
+### Post a new ToDo
+POST http://localhost:3000/todo
+Content-Type: application/json
+
+{
+  "title": "New Todo",
+  "status": "todo"
+}
+
+###
+
+### Post a new ToDo without status
+POST http://localhost:3000/todo
+Content-Type: application/json
+
+{
+  "title": "New Todo"
+}
+
+###
+
+### Post a new ToDo with invalid status
+POST http://localhost:3000/todo
+Content-Type: application/json
+
+{
+  "title": "New Todo",
+  "status": "invalid"
+}
+
+###
+
+### Post a new ToDo with no title
+POST http://localhost:3000/todo
+Content-Type: application/json
+
+{
+  "status": "todo"
+}
+
+###

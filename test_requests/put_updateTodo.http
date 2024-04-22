@@ -1,0 +1,8 @@
+### GET request to example server
+PUT http://localhost:3000/todo/1
+Content-Type: application/json
+
+{
+  "title": "New title"
+}
+###
